@@ -1,0 +1,77 @@
+html {
+    font-family: 'Agdasima', sans-serif;
+    background: url(pexels-angela-roma-7319125.jpg);
+    background-size: cover;
+    color: black;
+}
+
+.login-form{
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.first-div {
+    text-align: center;
+    margin-top: 100px;
+    background-color: whitesmoke;
+    margin-left: 600px;
+    margin-right: 600px;
+    border-radius: 10px;
+    background: transparent;
+}
+
+.first-div input[type="email"]{
+    margin-top: 2rem;
+    margin-bottom: -1px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.first-div input[type="password"]{
+    margin-bottom: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.newhere{
+    font-size: large;
+    color: black;
+}
+   
+.limk{
+    margin-top: 50px;
+    color: red;
+    font-size: large;
+}
+.button-16 {
+    background-color: black;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: whitesmoke;
+    cursor: pointer;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    height: 36px;
+    line-height: 27px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: pre;
+}
+
+.button-16:hover {
+    border-color: #dadce0;
+    box-shadow: rgba(0, 0, 0, .1) 0 1px 1px;
+    color: white;
+}
+
+.button-16:focus {
+    border-color: #4285f4;
+    outline: none;
+}
